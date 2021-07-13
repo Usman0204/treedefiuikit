@@ -1,0 +1,14 @@
+import React from "react";
+import Svg from "../../../components/Svg/Svg";
+import { SvgProps } from "../../../components/Svg/types";
+
+const Icon: React.FC<SvgProps> = (props) => {
+  return (
+    <Svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" {...props}>
+     <image id="seed-icon" width="24" height="24" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATFSURBVHgBzVVbbBRVGP52dmfv3Uv3QgtId1tKKWy1FizGcKkBCypBiY8qQohEEhBDUOMlsY0PGDBEeRDEgEAJSow2AYGUB0Qabg2u0BstbbfT0rrbbrc73ct0dmd2xzPb1qBpxXpJ/CZfMuec/3z/+S8zB/iPocQ/Q4XRqa90FhpXRgK8g4x5QvZ+AwX+BmwuwyuPrMvbW7KqwFFUUIRcvRuR5DDOnT8L77fM0Y76QDUxYyZ1YLRrn5yz2Paeq8y+SKmiLKKYZiMB7vKVIx1fkeWvC5fnHqjc6XlNbVNCFMWxPXo9LBoHcnQupCQRp47UMnV7GleSJd/9DhwL18yuefHNtavLi1aAibbAF22ChtIikeYx4udQt7ex7al3PPMVGomI6qBSqSCmUuATCSQFAdlmM6waJ9xZHuz/6EDn5UNthRMOrMs2F3m3vbvFJYfaHW3OTEbjcQiCCEpJQUpLkB8+lcis0WolTFoTNCo6M04mBUS5OBzWbOQZi8FHRWwv37M6U+RFL7gP7vpwe0VPrBV+rjtjHGJHYNDpkGUwgKZV6O0ahPdcFA2H7zHegx3Vft+wOjTCupUzSDQaPXSEsl2MOOEkFnbjDLS3do3KDjzr33/ic2euE33xjrGTkJM7sq3Q0wbwIo/G212o393xqYLKVlE6ejDSGdoaYZLHf7kaPRYJcs+pCySrOcsAlVJJqAJFjSUm0BvspEjRNud7HkI7e5MULYVRnofNaskYxIUYmoh4wz6mmvUl3hCifCjFCaVye46nlum5wD78Y1VXTXOLj9RDhJKkUwabDILtj6WU+Uscu2YuMeQLpCPS6TQMpCNkCMS4pdGHG0Sc7pfCq4qdZ8vdlpIlxU7t2lzDRrNevQOSZByKJ+v4IbE2dDemoN1ShcNpgU6lRyot4vrJrn3KwqU5T88ps5fQSjXxrgBNqRHmWPx0sVO6vrf7LSdHO95eU1hVucCh95jVmEtJmGXVodxl0ZXlWZbf8UfXDcWSh0aHxEvDnTEFR41WmOw6eL9hmMbTvTsUucWW59fvfqzWlKsFl0yAafOj44fA5TsngztJICWHNzz6pStbh6kQiifx+qnm6kCErxqfchHmEd6UszzRpi7nAtPGJCewLDN6i4wvyZPrS3O6t1Xku7772Q+tORvP5Gt+Ez5xow+eubNRagNONvQLh6/2OPGH34QMaqJYg62RKiL+yYQ4QenSAptLfrnVN4ITl5p/t/Fc8wCutA9k3lfMs8kfw7OYBCpMDQtNOsKgseKLl9eBGWojNSX/lvGYj28qg9tegsEog1ljTUdP10GAHRXw8QUvtq5wky+WQleQg5amwAtpFDj0uDfcjLrWQRi1GRl2ug7aWv3RsD+SsAYiCUQSEsz6xcjJ0pAWVqEn3AC7PpVxsHqBnH54JxP50/sgzInilmV5lWeaBnDDFyLCEl5dthJHr9XjfFML6juHseHxOTh2rfdoKC4cn0zjgffBPKeh5oO181/KMWkwQCJheTMs2hE4stQg/Y+q79tvtw/EKjBFih54o5GT1d71xxXBWGLhDJPGoFcnSA1SONMUiO6/6PvsXpjfNJX4dGEnrCHcSFhPOPOvbJrOnewmbCU8TRgmDOJfOvn/G78CkhMJm0h2lnYAAAAASUVORK5CYII="/>
+
+    </Svg>
+  );
+};
+
+export default Icon;
